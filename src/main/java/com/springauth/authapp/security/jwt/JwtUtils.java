@@ -14,7 +14,7 @@ import java.util.Date;
 public class JwtUtils {
     private static Logger logger = LoggerFactory.getLogger(JwtUtils.class);
 
-    @Value("${geekylikes.app.jwtSecret}")
+    @Value("${springauth.app.jwtSecret}")
     private String jwtSecret;
 
 //    @Value("${geekylikes.app.jwtExpirationMs}")
